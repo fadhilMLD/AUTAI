@@ -1,0 +1,6 @@
+tunnel: 0b341e13-da68-4575-9824-4dc7512518a7
+credentials-file: C:\Users\Fadhi\.cloudflared\0b341e13-da68-4575-9824-4dc7512518a7.json
+ingress:
+  - hostname: autai.feaven.tech
+    service: http://localhost:3000
+  - service: http_status:404

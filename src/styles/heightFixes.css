@@ -1,0 +1,14 @@
+/* Height fixes for panels */
+.layer-library,
+.layer-library-wrapper,
+.layer-panel,
+.sidebar-panel {
+  height: auto !important;
+  max-height: calc(100vh - 200px) !important; /* Adjust this value as needed */
+  overflow-y: auto !important;
+}
+
+/* Make sure all panels have consistent sizing */
+.panel-container > div {
+  flex: 0 0 auto !important;
+}

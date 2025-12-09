@@ -1,0 +1,5 @@
+.sidebar, .layer-library, .layer-library-container {
+  height: auto !important;
+  max-height: 70vh !important;
+  overflow-y: auto;
+}

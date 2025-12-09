@@ -1,0 +1,12 @@
+/* Height overrides for panels */
+.layer-library,
+.layer-library-container,
+.sidebar,
+.panel,
+.library-panel,
+[class*="-library"],
+[class*="-panel"] {
+  height: auto !important;
+  max-height: 600px !important;
+  overflow-y: auto !important;
+}

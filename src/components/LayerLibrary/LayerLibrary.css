@@ -1,0 +1,21 @@
+.layer-library {
+  /* ...existing code... */
+  height: auto !important; /* Override any fixed height */
+  max-height: 600px; /* Set a reasonable max height */
+  overflow-y: auto; /* Enable scrolling for content that exceeds the height */
+  /* ...existing code... */
+}
+
+.layer-library-title {
+  /* ...existing code... */
+  padding-bottom: 10px; /* Add some padding below the title */
+  /* ...existing code... */
+}
+
+.layer-library-container {
+  /* ...existing code... */
+  display: flex;
+  flex-direction: column;
+  max-height: calc(70vh - 40px); /* Account for title and padding */
+  /* ...existing code... */
+}
